@@ -49,7 +49,7 @@ ds
 
 
 Extracting DataArrays from a Dataset
-DataArray is similar in convention to a numpy array (kinda like what you use to make neural networks from scratch)
+DataArray is similar in convention to a numpy array
 Datasets are the multidimensional equivalent to a Pandas dataframe. 
 ## Label-based indexing
 Indexing is used to select specific elements from xarray files. Let's select some data from the 2-meter temperature DataArray. We know from the previous lesson that this DataArray has dimensions of time and two dimensions space (latitude and longitude). 
